@@ -1,0 +1,72 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br><br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+// PARA INCREMENTAR VARIAVEL FAZEMOS 
+// var total = 0;
+// total++
+
+// USANDO FOR
+for(var multiplicador = 1; multiplicador <= 10; multiplicador = multiplicador++){
+    mostra(7 * multiplicador);
+}
+mostra("FIM");
+
+// USANDO WHILE
+// var multiplicador = 1;
+
+// while (multiplicador <= 10){
+//     mostra(7 * multiplicador)
+//     multiplicador = multiplicador + 1;
+// }
+// mostra("FIM");
+
+// var numeroPensado = sorteia(n);
+// console.log(numeroPensado);// teste de condição
+// var chute = parseInt(prompt('Digite o número que você pensou'));
+
+// if(chute == numeroPensado){
+//     mostra("Você acertou e seu número pensado foi o " + chute);
+// } else {
+//     mostra("Você errou o número, o que pensamos foi: " + numeroPensado);
+// }
+
+
+//     function calculaImc(altura, peso) {
+
+//         return peso / (altura * altura);
+// }
+
+// var nome = prompt("Informe seu nome");
+// var alturaInformada = prompt("Oi " + nome + ", informe sua altura");
+// var pesoInformado = prompt("E agora, " + nome + " informe seu peso");
+
+// var imc = calculaImc(alturaInformada, pesoInformado)
+
+// document.write(nome + " o IMC é " + imc)
+// pulaLinha();
+
+// if(imc < 18.5){
+//     mostra("Você está abaixo do recomendado");
+//     pulaLinha();
+// } if (imc > 35){
+//     mostra("Você está acima do recomendado");
+//     pulaLinha();
+// } if (imc >= 18.5 && imc <= 35){
+//         mostra("Seu IMC está excelente");
+//         pulaLinha();
+//     }
+// mostra("FIM")
+
+</script>
